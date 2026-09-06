@@ -95,13 +95,6 @@ Se ven las 3 transacciones que el peek() va imprimiendo (T1, T2 y T3), y como T3
 
 # SEMANA No 2 — Bitacora Pokemon
 
-## Datos de Entrenador:
-- Nombre y Apellido:
-- Codigo de Estudiante:
-- Curso:
-
----
-
 ## Nivel 1 — Entrenador Novato
 
 ### Ejercicio 01 — Pokemon Tipo Fuego
