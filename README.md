@@ -38,7 +38,10 @@ Toca sacar de una lista los numeros que sean pares y ademas mayores a 10.
 
 **Codigo implementado:** [`Ejercicio1.java`](src/main/java/dosw/semana_1/streams/Ejercicio1.java)
 **Captura de ejecucion:**
-![Ejecucion Ejercicio 1](capturas/semana_1/ejercicio1.png)
+![Ejecucion Ejercicio 1](https://raw.githubusercontent.com/DanielBarrera-a/DOSW_BITACORA/4b2ad44713427cd2cf3f3ba78ed927afc369e912/capturas/semana_1/ejercicio1.png)
+
+Se ve la lista de entrada [3, 8, 10, 12, 15, 18, 20] y el resultado filtrado [12, 18, 20], que es justo lo que pide el ejercicio.
+
 **Explicacion:** Use filter() poniendo las dos condiciones juntas con && (que sea par y que sea mayor a 10) y ya queda la lista filtrada. No hizo falta nada mas.
 
 ### Ejercicio 02 — Cantidad de Palabras con mas de 4 caracteres
@@ -47,7 +50,10 @@ Filtrar palabras largas, pasarlas a mayusculas, ordenarlas y contar cuantas qued
 
 **Codigo implementado:** [`Ejercicio2.java`](src/main/java/dosw/semana_1/streams/Ejercicio2.java)
 **Captura de ejecucion:**
-![Ejecucion Ejercicio 2](capturas/semana_1/ejercicio2.png)
+![Ejecucion Ejercicio 2](https://raw.githubusercontent.com/DanielBarrera-a/DOSW_BITACORA/4b2ad44713427cd2cf3f3ba78ed927afc369e912/capturas/semana_1/ejercicio2.png)
+
+Con la entrada [java, stream, api, functional, code, git] quedan [FUNCTIONAL, STREAM], osea 2 palabras.
+
 **Explicacion:** Primero filter() para quedarme con las palabras de mas de 4 letras, despues map() para pasarlas a mayuscula y sorted() para ordenarlas. Al final el conteo lo saco con size() sobre la lista que queda. Es solo encadenar los metodos uno detras de otro.
 
 ### Ejercicio 03 — Obtener nombres de los Usuarios
@@ -56,7 +62,10 @@ Filtrar usuarios activos y sacar sus nombres en mayuscula, ordenados alfabeticam
 
 **Codigo implementado:** [`Ejercicio3.java`](src/main/java/dosw/semana_1/streams/Ejercicio3.java)
 **Captura de ejecucion:**
-![Ejecucion Ejercicio 3](capturas/semana_1/ejercicio3.png)
+![Ejecucion Ejercicio 3](https://raw.githubusercontent.com/DanielBarrera-a/DOSW_BITACORA/4b2ad44713427cd2cf3f3ba78ed927afc369e912/capturas/semana_1/ejercicio3.png)
+
+De los 5 usuarios de prueba, quedan solo los activos, en mayuscula y ordenados: sortedUsers = [ANA, MARTA, SOFIA].
+
 **Explicacion:** Saco primero los usuarios activos con filter(), les saco el nombre y lo paso a mayuscula con map(), y por ultimo sorted() para dejarlos en orden alfabetico.
 
 ### Ejercicio 04 — Personas mayores de edad
@@ -65,7 +74,10 @@ Filtrar usuarios mayores de edad y obtener sus nombres.
 
 **Codigo implementado:** [`Ejercicio4.java`](src/main/java/dosw/semana_1/streams/Ejercicio4.java)
 **Captura de ejecucion:**
-![Ejecucion Ejercicio 4](capturas/semana_1/ejercicio4.png)
+![Ejecucion Ejercicio 4](https://raw.githubusercontent.com/DanielBarrera-a/DOSW_BITACORA/4b2ad44713427cd2cf3f3ba78ed927afc369e912/capturas/semana_1/ejercicio4.png)
+
+Con la misma lista de usuarios del ejercicio anterior, salen los mayores de edad: [Ana, Marta, Pedro, Sofia].
+
 **Explicacion:** Parecido al anterior pero mas corto: filtro los que tengan 18 anios o mas y con map() me quedo solo con el nombre.
 
 ### Ejercicio 05 — Transacciones Bancarias
@@ -74,7 +86,10 @@ Usar peek() para observar cada transaccion y anyMatch() para verificar si existe
 
 **Codigo implementado:** [`Ejercicio5.java`](src/main/java/dosw/semana_1/streams/Ejercicio5.java)
 **Captura de ejecucion:**
-![Ejecucion Ejercicio 5](capturas/semana_1/ejercicio5.png)
+![Ejecucion Ejercicio 5](https://raw.githubusercontent.com/DanielBarrera-a/DOSW_BITACORA/4b2ad44713427cd2cf3f3ba78ed927afc369e912/capturas/semana_1/ejercicio5.png)
+
+Se ven las 3 transacciones que el peek() va imprimiendo (T1, T2 y T3), y como T3 no esta aprobada, anyMatch() devuelve true y por eso el lote sale invalido.
+
 **Explicacion:** El peek() lo uso para ir imprimiendo cada transaccion mientras el stream la procesa, y el anyMatch() revisa si hay alguna no aprobada. Ojo que anyMatch corta apenas encuentra el primer caso que cumple, entonces en la consola no siempre salen impresas todas las transacciones.
 
 ---
