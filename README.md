@@ -26,9 +26,8 @@ DOSW_BITACORA/
 # SEMANA No 1 — DOSW Manejo de Streams
 
 ## Datos personales:
-- Nombre y Apellido:
-- Codigo de Estudiante:
-- Curso:
+- Nombre y Apellido: Daniel ALfredo Barrera Araque
+- Curso: DOWS 1
 
 ---
 
