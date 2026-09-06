@@ -2,7 +2,7 @@
 
 Bitácora del Torneo Pokémon del Profesor Oak — Taller 2 de DOSW (Java, Streams y Expresiones Lambda).
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 DOSW_BITACORA/
@@ -12,7 +12,7 @@ DOSW_BITACORA/
     └── semana_2/pokemon/    → Ejercicio1.java ... Ejercicio20.java (+ Pokemon.java, Entrenador.java)
 ```
 
-## 🌿 Estrategia de ramas
+## Estrategia de ramas
 
 - `main` y `develop` son las ramas principales.
 - Cada semana vive en `feature/semana-n-dosw`, creada desde `develop`.
