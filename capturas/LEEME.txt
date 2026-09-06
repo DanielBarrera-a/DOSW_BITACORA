@@ -1,0 +1,20 @@
+Como agregar tus capturas de ejecucion
+=======================================
+
+1. Corre cada ejercicio en tu IDE (o desde la terminal con java).
+2. Toma un pantallazo de la consola con el resultado.
+3. Guarda la imagen en la carpeta correspondiente con este nombre exacto:
+
+   capturas/semana_1/ejercicio1.png
+   capturas/semana_1/ejercicio2.png
+   ... hasta ejercicio5.png
+
+   capturas/semana_2/ejercicio1.png
+   capturas/semana_2/ejercicio2.png
+   ... hasta ejercicio20.png
+
+4. Listo. El README.md ya tiene el link armado apuntando a cada archivo,
+   apenas guardes la imagen con ese nombre va a aparecer sola en el README.
+
+Puedes usar .png o .jpg, si usas otra extension solo actualiza el link
+correspondiente en el README.md.
